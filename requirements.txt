@@ -1,0 +1,16 @@
+# Core dependencies — đồng bộ với pyproject.toml [project.dependencies].
+# Người dùng pip thuần (không uv) chạy:
+#   pip install -r requirements.txt && pip install -e .
+
+pdfplumber>=0.11.0
+pydantic>=2.7.0
+typer>=0.12.0
+tqdm>=4.66.0
+loguru>=0.7.2
+
+# Bật khi cần xuất Excel (--format excel):
+# openpyxl>=3.1.5
+
+# Bật khi sẵn sàng ghi DB (xem extras [db] trong pyproject.toml):
+# psycopg[binary]>=3.2.0
+# python-dotenv>=1.0.1

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# venv / uv
+.venv/
+.uv-cache/
+
+# Env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Dataset BTC cấp — không commit
+data/
+Emails & Files/
+Database/
+
+# Đề thi, deliverable PDF — không commit binary lớn
+*.pdf
+*.docx
+*.xlsx
+!output/*.xlsx
+
+# Pipeline output
+output/
+derived/
+*.log
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local agent guidance — không commit
+CLAUDE.md
